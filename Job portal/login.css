@@ -1,0 +1,69 @@
+body {
+  background-color: rgba(201, 205, 209, 0.774);
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin-top: 6%;
+  height: 550px;
+  width: 470px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn {
+  margin-left: 34%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 7px;
+  border-style: ridge;
+  background-color: rgb(27, 170, 27);
+}
+.par {
+  margin-left: 20%;
+  text-decoration: none;
+  font-size: smaller;
+}
+.form {
+  color: rgba(86, 85, 83, 0.961);
+}
+input {
+  border-color: rgba(198, 196, 193, 0.624);
+  background-color: rgba(231, 236, 234, 0.88);
+  border-radius: 5px;
+  border-style: ridge;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(27, 170, 27);
+}
+.container-contact {
+  margin-top: 6%;
+  height: 450px;
+  width: 470px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feed {
+  height: 100px;
+  width: 250px;
+}
+.feed1 {
+  width: 250px;
+}
+.buttondiv {
+  margin-left: -30px;
+}

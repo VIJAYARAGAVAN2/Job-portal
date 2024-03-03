@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="jobs.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jobs</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nd shopin"><b>JobPortal</b></div>
+      <div class="nd input">
+        <input
+          id="search-item"
+          onkeyup="search()"
+          class="inp"
+          type="text"
+          placeholder="search for more jobs... "
+        /><img class="image" src="magnifying-glass (1).png" alt="" />
+      </div>
+      <div class="log nd">
+        <b><a href="login.html" class="l">Register</a></b>
+      </div>
+      <div class="nd"><a class="aa" href="contact.html">Contact us</a></div>
+      <div class="nd more"><a class="aa" href="about.html">About us</a></div>
+    </nav>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="list11">
+      <div class="card">
+        <img
+          src="https://animationvisarts.com/wp-content/uploads/2020/12/Amazon-current-Logo-2.jpg"
+          alt=""
+        />
+        <div class="company">
+          <h2>Amazon, Area Manager, Inbound</h2>
+          <div class="bottom">
+            <p>Python developer</p>
+            <div class="applied">Apply</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://computerhistory.org/wp-content/uploads/2019/06/New-Google-Logo-great.jpg"
+          alt=""
+        />
+        <div class="company">
+          <h2>Google, Network Engineer, Operations</h2>
+          <div class="bottom">
+            <p>Java developer</p>
+            <div class="applied">Apply</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <div class="company">
+          <h2>Microsoft, Principal Software Engineer</h2>
+          <div class="bottom">
+            <p>Web developer</p>
+            <div class="applied">Apply</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
